@@ -1,0 +1,5 @@
+CREATE TABLE initial (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(200) NOT NULL UNIQUE,
+    release_date DATE NOT NULL
+);
